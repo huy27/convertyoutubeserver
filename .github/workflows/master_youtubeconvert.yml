@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'youtubeconvert'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7B3093FE2B604DC394A813B84055986D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DE5F338C21D945FAA788E1914D06028E }}
           package: .
