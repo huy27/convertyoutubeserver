@@ -221,7 +221,7 @@ namespace ConvertYoutubeToMp3.Controllers
             var httpClient = _httpClientFactory.CreateClient();
 
             // Tạo nội dung yêu cầu
-            var postData = $"k_query=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D{videoId}&k_page=home&hl=en&q_auto=0";
+            var postData = $"k_query=https%3A%2F%2Fwww.youtubepp.com%2Fwatch%3Fv%3D{videoId}&k_page=home&hl=en&q_auto=0";
             var content = new StringContent(postData, Encoding.UTF8, "application/x-www-form-urlencoded");
 
             // Tính toán Content-Length
